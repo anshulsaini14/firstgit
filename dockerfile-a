@@ -1,0 +1,4 @@
+FROM nginx
+LABEL maintainer="abc@gmail.com"
+WORKDIR /a/b
+COPY ./index.html .
